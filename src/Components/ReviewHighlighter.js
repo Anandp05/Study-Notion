@@ -23,7 +23,7 @@ function ReviewHighlighter() {
         <div class="flex flex-col gap-1 ">
         <div class="flex">
         <img class="w-7 mx-2" src={item.source.icon}></img>
-        <h3 data-tooltip-id={item.review_id}><span class="text-[#0f172a] font-bold">{item.reviewer_name} </span><span class="text-[#475569]">wrote a review at </span><span class="font-bold">{item.source.name}</span></h3>
+        <h3 ><span class="text-[#0f172a] font-bold">{item.reviewer_name} </span><span class="text-[#475569]">wrote a review at </span><span class="font-bold">{item.source.name}</span></h3>
         </div>
 
 
@@ -37,11 +37,11 @@ function ReviewHighlighter() {
           </div>
 </div>
 
-        <p data-tooltip-id={item.review_id}>{item.date}</p>
-        <p data-tooltip-id={item.review_id}>
+        <p >{item.date}</p>
+        <p>
         {/* Splitting the content into three parts */}
         <span>{item.content.substring(0, item.highlight_indices[0][0])}</span>
-        <span style={{ backgroundColor: sentimentColors[item.sentiment] }}>
+        <span data-tooltip-id={item.review_id} style={{ backgroundColor: sentimentColors[item.sentiment] }}>
         {/* Highlighted part */}
           {/* Highlighted part */}
           {item.content.substring(

@@ -20,7 +20,7 @@ function ReviewHighlighter() {
   return (
     <div class=" w-[80%] mt-5 mx-auto flex flex-col p-4 gap-6">
     {ReviewList.map((item) => (
-        <div class=" ">
+        <div class="flex flex-col gap-1 ">
         <div class="flex">
         <img class="w-7 mx-2" src={item.source.icon}></img>
         <h3 data-tooltip-id={item.review_id}><span class="text-[#0f172a] font-bold">{item.reviewer_name} </span><span class="text-[#475569]">wrote a review at </span><span class="font-bold">{item.source.name}</span></h3>

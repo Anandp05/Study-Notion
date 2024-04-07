@@ -1,4 +1,5 @@
-const ReviewList=[
+const ReviewList=
+[
     {
       "review_id": "123456",
       "reviewer_name": "Amgad",
@@ -39,13 +40,19 @@ const ReviewList=[
           ],
           "sentiment": "Positive",
           "highlight_indices": [
-            [25, 192, "Positive"
+            [
+              25,
+              192,
+              "Positive"
             ]
           ]
         }
       ],
       "highlight_indices": [
-        [25, 192, "Positive"
+        [
+          25,
+          192,
+          "Positive"
         ]
       ]
     },
@@ -76,7 +83,14 @@ const ReviewList=[
       },
       "bookmarked": false,
       "bookmark_pk": 0,
-      "analytics": []
+      "analytics": [],
+      "highlight_indices": [
+        [
+          -1,
+          108,
+          "Positive"
+        ]
+      ]
     },
     {
       "review_id": "1234512",
@@ -120,7 +134,10 @@ const ReviewList=[
           ],
           "sentiment": "Positive",
           "highlight_indices": [
-            [-1, 26, "Positive"
+            [
+              -1,
+              26,
+              "Positive"
             ]
           ]
         },
@@ -138,13 +155,19 @@ const ReviewList=[
           ],
           "sentiment": "Positive",
           "highlight_indices": [
-            [-1, 108, "Positive"
+            [
+              -1,
+              108,
+              "Positive"
             ]
           ]
         }
       ],
       "highlight_indices": [
-        [-1, 108, "Positive"
+        [
+          -1,
+          108,
+          "Positive"
         ]
       ]
     },
@@ -188,13 +211,19 @@ const ReviewList=[
           ],
           "sentiment": "Negative",
           "highlight_indices": [
-            [461, 578, "Negative"
+            [
+              461,
+              578,
+              "Negative"
             ]
           ]
         }
       ],
       "highlight_indices": [
-        [461, 578, "Negative"
+        [
+          461,
+          578,
+          "Negative"
         ]
       ]
     },
@@ -212,7 +241,7 @@ const ReviewList=[
       "source_review_id": "9c8c51a0d0d97b7d",
       "category": "staff",
       "phrases": "team|||guide|||team|||team|||guide|||team",
-      "sentences": "team, always present, calls us by name and, after the first contacts, they already know our\u003C_PHRASE_\u003Eisland guide, Chelsea, besides being super pleasant and polite, was always available for a good conversation or to prepare any tour,\u003C_PHRASE_\u003Eand the whole team certainly made our season there something more than",
+      "sentences": "team, always present, calls us by name and, after the first contacts, they already know our<_PHRASE_>island guide, Chelsea, besides being super pleasant and polite, was always available for a good conversation or to prepare any tour,<_PHRASE_>and the whole team certainly made our season there something more than",
       "topic": "staff",
       "sentiment": "Positive",
       "out_of": 5,
@@ -244,11 +273,20 @@ const ReviewList=[
           ],
           "sentiment": "Positive",
           "highlight_indices": [
-            [180, 271, "Positive"
+            [
+              180,
+              271,
+              "Positive"
             ],
-            [289, 421, "Positive"
+            [
+              289,
+              421,
+              "Positive"
             ],
-            [452, 522, "Positive"
+            [
+              452,
+              522,
+              "Positive"
             ]
           ]
         },
@@ -264,7 +302,10 @@ const ReviewList=[
           ],
           "sentiment": "Positive",
           "highlight_indices": [
-            [162, 174, "Positive"
+            [
+              162,
+              174,
+              "Positive"
             ]
           ]
         },
@@ -280,13 +321,19 @@ const ReviewList=[
           ],
           "sentiment": "Positive",
           "highlight_indices": [
-            [609, 705, "Positive"
+            [
+              609,
+              705,
+              "Positive"
             ]
           ]
         }
       ],
       "highlight_indices": [
-        [609, 705, "Positive"
+        [
+          609,
+          705,
+          "Positive"
         ]
       ]
     },
@@ -330,7 +377,10 @@ const ReviewList=[
           ],
           "sentiment": "Positive",
           "highlight_indices": [
-            [209, 232, "Positive"
+            [
+              209,
+              232,
+              "Positive"
             ]
           ]
         },
@@ -346,16 +396,23 @@ const ReviewList=[
           ],
           "sentiment": "Positive",
           "highlight_indices": [
-            [83, 128, "Positive"
+            [
+              83,
+              128,
+              "Positive"
             ]
           ]
         }
       ],
       "highlight_indices": [
-        [83, 128, "Positive"
+        [
+          83,
+          128,
+          "Positive"
         ]
       ]
     }
   ]
+
 
   export default ReviewList;

@@ -1,9 +1,8 @@
 import "./App.css";
-import "../src/Components/MyComponent"
-import MyComponent from "../src/Components/MyComponent";
+import ReviewHighlighter from "./Components/ReviewHighlighter";
 function App() {
   return (
-    <MyComponent></MyComponent>
+    <ReviewHighlighter></ReviewHighlighter>
   );
 }
 

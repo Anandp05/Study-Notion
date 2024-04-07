@@ -18,7 +18,7 @@ function ReviewHighlighter() {
 
     
   return (
-    <div class="flex flex-col p-4 gap-6">
+    <div class=" w-[80%] mt-5 mx-auto flex flex-col p-4 gap-6">
     {ReviewList.map((item) => (
         <div class=" ">
         <div class="flex">
@@ -48,12 +48,6 @@ function ReviewHighlighter() {
         <p data-tooltip-id={item.review_id}>{item.date}</p>
         <p data-tooltip-id={item.review_id}>
         {/* Splitting the content into three parts */}
-
-
-       
-          
-
-
         <span>{item.content.substring(0, item.highlight_indices[0][0])}</span>
         <span style={{ backgroundColor: sentimentColors[item.sentiment] }}>
         {/* Highlighted part */}

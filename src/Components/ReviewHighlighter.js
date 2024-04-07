@@ -46,7 +46,6 @@ function ReviewHighlighter() {
 </div>
 
         <p data-tooltip-id={item.review_id}>{item.date}</p>
-        <p data-tooltip-id={item.review_id}>{item.rating_review_score}</p>
         <p data-tooltip-id={item.review_id}>
         {/* Splitting the content into three parts */}
 
